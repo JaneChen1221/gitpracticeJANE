@@ -2,8 +2,20 @@
 # Partner 2 Name: Daisy Chen
 ############################
 # Assignment Name: GitHub Practice - 2/25/20 - 10 points
+import random
+
 def getNRandom(n):
-	'''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
+    numbers = []
+    for i in range(n):
+        number = random.randint(1, 10)
+        numbers.append(number)
+    return numbers
+
+def multiplyRandom(numbers):
+    product = 1
+    for number in numbers:
+        product = product * number
+    return product
     pass
 
 def multiplyRandom(numbers):

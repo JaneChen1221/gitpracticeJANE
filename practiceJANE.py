@@ -1,6 +1,7 @@
 # Partner 1 Name: Jane Chen
 # Partner 2 Name: Daisy Chen
 ############################
+# Assignment Name: GitHub Practice - 2/25/20
 def getNRandom(n):
 	'''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
     pass

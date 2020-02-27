@@ -10,12 +10,6 @@ def getNRandom(n):
         number = random.randint(1, 10)
         numbers.append(number)
     return numbers
-
-def multiplyRandom(numbers):
-    product = 1
-    for number in numbers:
-        product = product * number
-    return product
     pass
 
 def multiplyRandom(numbers):

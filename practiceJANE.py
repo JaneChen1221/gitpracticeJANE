@@ -10,14 +10,12 @@ def getNRandom(n):
         number = random.randint(1, 10)
         numbers.append(number)
     return numbers
-    pass
 
 def multiplyRandom(numbers):
     product = 1
     for number in numbers:
         product = product * number
     return product
-    pass
 
 def main():
 	print(multiplyRandom(getNRandom(10))

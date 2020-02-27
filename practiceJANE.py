@@ -13,7 +13,10 @@ def getNRandom(n):
     pass
 
 def multiplyRandom(numbers):
-	'''takes in a list of n numbers and returns the product of the numbers'''
+    product = 1
+    for number in numbers:
+        product = product * number
+    return product
     pass
 
 def main():
